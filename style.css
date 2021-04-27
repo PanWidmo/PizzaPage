@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#333;
+    font: 22px 'Bahnschrift Light';
+}
+
+header{
+    min-height:93vh;
+    background: url('./imgs/pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:#fff;
+    text-align: center;
+    text-shadow: 0 0 15px rgb(0, 0, 0, .9); 
+}
+
+header div{
+    padding-top:260px;
+}
+
+header h1{
+    font-size: 120px;
+    margin-bottom:30px;
+}
+
+header h2{
+    font-size:80px;
+    margin-bottom:30px;
+}
+
+header h3{
+    font-size: 50px;
+}
+
+nav{
+    text-align: center;
+    line-height: 66px;
+    background-color: #000;
+    position:sticky;
+    top:0;
+    word-spacing: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 38px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+main{
+    margin:0 auto;
+    width: 60%;
+}
+
+.section:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.section{
+    padding-bottom: 73px;
+}
+
+.section h2{
+    font-size: 42px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.pojedyncza{
+    margin-bottom: 25px;
+}
+
+.nazwa{
+    font-size: 30px;
+    text-align: left;
+    min-width: 28%;
+    float: left;
+}
+
+.nazwa span{
+    font-size: 16px;
+}
+
+.cena{
+    width:72%;
+    text-align: right;
+    display:inline-block;
+    font-size:30px; 
+}
+
+.rozmiar{
+    width:24%;
+    float:right;
+    text-align: right;
+}
+
+.skladniki{
+    width:100%;
+    text-align: left;
+}
+
+#promocje{
+    text-align: center;
+}
+
+#promocje li{
+    list-style: none;
+    margin: 0 0 10px 0;
+}
+
+#promocje p{
+    padding-bottom: 40px;
+}
+
+#galeria{
+   text-align: center;
+}
+
+#slider{
+    display: flex;
+    width: 100%;
+	height: 100%;
+	margin: 20px auto;
+}
+
+#slider img{
+    width: 100%;
+    height: 100% auto;
+    border:6px solid #000;
+}
+
+#galeria button{
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    width:40px;
+    height:40px;
+    color:#fff;
+    background-color: #000;
+    border-radius: 20px;
+    outline: none;
+    margin-left:35px;
+    margin-right: 35px;
+}
+
+#kontakt{
+    text-align: center;
+}
+
+#kontakt iframe{
+    width:60%;
+    height:30vh;
+    border:2px solid #000;
+}
+
+#menu, #promocje, #galeria, #kontakt{
+    padding-top:73px;
+}
+
+footer{
+    font-size: 15px;
+    color:#fff;
+    background-color: #000;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    main{
+        width:96%;
+
+    }
+
+    header div{
+        padding-top:140px;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+    header h2{
+        font-size: 44px;
+    }
+
+    header h3{
+        font-size:30px;
+    }
+
+    #menu, #promocje, #galeria, #kontakt{
+        padding-top:210px;
+    }
+
+    #menu span{
+        font-size: 9px;
+    }
+
+    .rozmiar{
+    font-size: 11px;
+    }
+    
+    .nazwa{
+    font-size: 15px;
+    }
+
+    .nazwa span{
+        font-size: 6px !important
+    }
+
+    .skladniki{
+    font-size: 13px;
+    }
+
+    
+
+  }
